@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/k0robova.github.io/goit-react-hw-02-phonebook/static/css/main.0e405701.css",
-    "main.js": "/k0robova.github.io/goit-react-hw-02-phonebook/static/js/main.3293b316.js",
+    "main.css": "/k0robova.github.io/goit-react-hw-02-phonebook/static/css/main.c46383b5.css",
+    "main.js": "/k0robova.github.io/goit-react-hw-02-phonebook/static/js/main.a1bb173b.js",
     "index.html": "/k0robova.github.io/goit-react-hw-02-phonebook/index.html",
-    "main.0e405701.css.map": "/k0robova.github.io/goit-react-hw-02-phonebook/static/css/main.0e405701.css.map",
-    "main.3293b316.js.map": "/k0robova.github.io/goit-react-hw-02-phonebook/static/js/main.3293b316.js.map"
+    "main.c46383b5.css.map": "/k0robova.github.io/goit-react-hw-02-phonebook/static/css/main.c46383b5.css.map",
+    "main.a1bb173b.js.map": "/k0robova.github.io/goit-react-hw-02-phonebook/static/js/main.a1bb173b.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e405701.css",
-    "static/js/main.3293b316.js"
+    "static/css/main.c46383b5.css",
+    "static/js/main.a1bb173b.js"
   ]
 }
