@@ -40,7 +40,7 @@ export class Form extends React.Component {
         <label>
           Number
           <input
-            type="number"
+            type="tel "
             name="number"
             required
             value={this.state.number}

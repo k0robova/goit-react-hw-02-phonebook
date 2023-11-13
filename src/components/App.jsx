@@ -16,21 +16,24 @@ export class App extends React.Component {
     filter: '',
   };
 
-  generateId = () => nanoid();
+  // generateId = () => nanoid();
 
   formSubmitHandler = data => {
+    const { name, number } = data;
+
     if (
       this.state.contacts.some(
-        contact => contact.name.toLowerCase() === data.name.toLowerCase()
+        contact => contact.name.toLowerCase() === name.toLowerCase()
       )
     ) {
-      alert(`Контакт з ім'ям "${data.name}" вже існує в телефонній книзі!`);
+      alert(`${name} is already in contactcs!`);
       return;
     } else {
       const newContact = {
-        id: this.generateId(),
-        name: data.name,
-        number: data.number,
+        // id: this.generateId(),
+        id: nanoid(),
+        name: name,
+        number: number,
       };
 
       this.setState(prevState => ({
